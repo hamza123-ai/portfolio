@@ -1,1 +1,132 @@
-# portfolio
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="C:\Users\Hamza\Desktop\porfolio">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profile Section -->
+    <section id="profile" class="section">
+        <div class="profile-card">
+            <img src="c:\Users\Hamza\Desktop\WhatsApp Image 2025-01-02 at 14.08.38_a75414a4.jpg" alt="Your Name" class="profile-img" />
+            <h2>MALIK HAMZA</h2>
+            <p> Java Developer | API Integration | Spring Boot </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-list">
+            <div class="skill-card">
+                <h3>Java Core</h3>
+                <p>Solid understanding of object-oriented programming principles and experience in Java development, including writing efficient code and solving complex problems.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Spring Boot</h3>
+                <p>Experience in building RESTful APIs, working with Spring MVC, Spring Security, and Hibernate ORM. Focused on rapid development and integration with various databases.</p>
+            </div>
+            <div class="skill-card">
+                <h3>API Integration</h3>
+                <p>Experienced in integrating third-party APIs and creating seamless connections between systems. Knowledge in RESTful API principles, JWT, and OAuth.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Database Management</h3>
+                <p>Skilled in relational database management with MySQL, PostgreSQL, and MongoDB. Experience in writing efficient queries, managing schema, and optimizing performance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-heading">Projects</h2>
+        <div class="project-cards">
+            <div class="project-card">
+                <h3>Live Cricket Website</h3>
+                <p>Developed a Live Cricket Scoring Application using Spring MVC and Thymeleaf for real-time
+                    match updates.
+                     Integrated Spring Security to manage user roles, allowing secure access for admins and users.
+                     Users could view live scores, match summaries, and detailed team information.
+                     Admins were empowered to update live scores and player statistics during matches.
+                     Created a responsive and user-friendly interface for a seamless user experience.
+                     Designed a match dashboard to track live performance metrics and analytics.
+                    </p>
+                <ul>
+                    <li>Used Spring Boot to create a RESTful backend.</li>
+                    <li>Integrated with external cricket APIs for real-time data.</li>
+                    <li>Implemented front-end features for displaying player statistics dynamically.</li>
+                </ul>
+                
+            </div>
+            <div class="project-card">
+                <h3>Flight Management System</h3>
+                <p>The Airplane Tickets Management System is a comprehensive web application designed to facilitate
+                    flight search, ticket booking, and management processes. Built using Spring MVC and Thymeleaf, the
+                    system ensures a user-friendly experience with a dynamic and responsive interface.
+                    Key features include secure user authentication implemented using Spring Security, enabling users to
+                    log in safely and access personalized functionalities. The system allows users to search for flights based
+                    on criteria like travel date, destination, and flight class. Once a flight is selected, users can book tickets
+                    effortlessly, with all operations reflected in the backend..</p>
+                <ul>
+                    <li>Created secure user authentication using Spring Security.</li>
+                    <li>Designed a user-friendly interface with Thymeleaf templates.</li>
+                    <li>Optimized blog post search and filtering features using SQL queries.</li>
+                </ul>
+                
+            </div>
+
+
+        </div>
+        <div class="project-card">
+            <h3>Test Taking Application(Currently working on it)</h3>
+            <p>A Test-Taking Application is an online platform designed to facilitate the creation, administration, and evaluation of exams. It allows users to take tests remotely, with features like automated grading, real-time feedback, and detailed performance analytics. The platform supports multiple question formats (e.g., multiple-choice, short answer, essay) and ensures secure testing through proctoring and randomization. It's accessible across devices and supports user roles such as students, instructors, and admins.
+                Skills used in the project include web development (HTML, CSS, JavaScript), backend development (using frameworks like Spring Boot for creating APIs), database management (SQL for storing user data and test results), and security implementation (Spring Security for authentication and authorization). Additionally, integration of real-time features and creating responsive, user-friendly interfaces require expertise in frontend and backend technologies.</p>
+            <ul>
+                <li>Created secure user authentication using Spring Security.</li>
+                <li>Designed a user-friendly interface with Thymeleaf templates.</li>
+                <li>Optimized blog post search and filtering features using SQL queries.</li>
+            </ul>
+            
+        </div>
+
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-heading">Contact</h2>
+        <p>Feel free to reach out to me for collaborations, job opportunities, or just to connect!</p>
+        <ul>
+            <li>Phone Number: 03243735436</li>
+               
+            <li>Email: hamzaahmedmalik2001@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/malik-hamza-ahmed-b400351a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/your-profile</a></li>
+            <li>GitHub: <a href="https://github.com/settings/profile" target="_blank">github.com/your-profile</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="C:\Users\Hamza\Untitled-3.js"></script>
+</body>
+</html>
